@@ -7,7 +7,7 @@ def path(p)
 end
 
 directory home_dir
-environment 'develpment'
+environment 'development'
 
 pidfile path('tmp/pids/puma.pid')
 state_path path('tmp/pids/puma.state')
